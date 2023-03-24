@@ -4,12 +4,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
   <script src="./script.js" defer></script>
   <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
-  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <title>Chat-Alpaca</title>
+
+
 </head>
-<body>
-  <div id="monitor"></div>
-  <input type="text" id="prompt" />
+<body style="text-align: center;">
+  <button id="clear-button">Limpar Chat</button>
+  <div id="monitor">
+    <div id="typing"></div>
+  </div>
+  <input type="text" id="prompt" placeholder="Digite aqui" />
+  <button id="send-button" class="btn fa fa-paper-plane"></button>
+  <h1>Chat Alpaca 1.0</h1>
+</div>
 </body>
 </html>
