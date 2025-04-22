@@ -1,6 +1,6 @@
 # 🦙 Chat Alpaca
 
-**Chat Alpaca** é uma interface web para interação com o modelo **Alpaca**, baseada em `alpaca.cpp`. O sistema permite conversas em linguagem natural diretamente do navegador utilizando um backend em Node.js com comunicação em tempo real via WebSockets.
+**Chat Alpaca** é uma interface web inteligente para interação com o modelo **Alpaca**, baseada em `alpaca.cpp`. O sistema permite conversas em linguagem natural diretamente do navegador utilizando um backend em Node.js com comunicação em tempo real via WebSockets.
 
 ---
 
